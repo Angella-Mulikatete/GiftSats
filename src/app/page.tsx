@@ -1,3 +1,5 @@
+import { GiftSatForm } from "../components/gift-sat-form"
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-zinc-900 to-black text-white">
@@ -7,11 +9,11 @@ export default function Home() {
             <h1 className="mb-2 text-4xl font-bold">BitGift</h1>
             <p className="text-zinc-400">Send Bitcoin gifts to anyone with a phone</p>
           </div>
-          <BitGiftForm />
+          <GiftSatForm />
         </div>
       </div>
     </main>
   )
 }
 
-import { BitGiftForm } from "@/components/bit-gift-form"
+
