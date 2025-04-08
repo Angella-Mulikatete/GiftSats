@@ -6,7 +6,7 @@ export default function Home() {
       <div className="container mx-auto px-4 py-16">
         <div className="mx-auto max-w-md">
           <div className="mb-8 text-center">
-            <h1 className="mb-2 text-4xl font-bold">BitGift</h1>
+            <h1 className="mb-2 text-4xl font-bold">GiftSat</h1>
             <p className="text-zinc-400">Send Bitcoin gifts to anyone with a phone</p>
           </div>
           <GiftSatForm />
