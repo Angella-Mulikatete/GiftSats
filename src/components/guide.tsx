@@ -6,7 +6,6 @@ import Link from 'next/link'
 import { motion } from "framer-motion"
 
 
-
 const Guide = () => {
   return (
     <main className="min-h-screen bg-gradient-to-b from-zinc-900 to-black text-white">
