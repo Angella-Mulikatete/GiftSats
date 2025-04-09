@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button"
 
 
 
-const Navbar = () => {
+export function Navbar () {
     const pathname = usePathname();
   return (
     <>
@@ -35,12 +35,12 @@ const Navbar = () => {
                 </Button>
 
                 <Button
-                    variant={pathname === "/ussd-simulator"? "default": "ghost"}
+                    variant={pathname === "/ussd-"? "default": "ghost"}
                     size ="sm"
                     asChild
-                    className = {pathname === "/ussd-simulator" ? "bg-yellow-500 text-black hover:bg-yellow-600":"text-zinc-400"}
+                    className = {pathname === "/ussd" ? "bg-yellow-500 text-black hover:bg-yellow-600":"text-zinc-400"}
                 >
-                    <Link href="/ussd-simulator">
+                    <Link href="/ussd">
                         <Phone className="mr-2 h-4 w-4"/>
                         USSD Simulator
                     </Link>
