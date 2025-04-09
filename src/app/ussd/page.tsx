@@ -104,7 +104,7 @@ const Page = () => {
                                         <Input
                                             value={phoneNumber}
                                             onChange = {(e) => setPhoneNumber(e.target.value)}
-                                            placeholder="Your Phone number"
+                                            placeholder="*123#"
                                             className="border-zinc-800 bg-zinc-900"
                                         />
                                         <Button onClick={handleDial} className="bg-yellow-500 text-black hover:bg-yellow-600">Dial</Button>
